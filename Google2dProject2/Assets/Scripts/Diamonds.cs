@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 public class Diamonds : MonoBehaviour
 {
     [SerializeField] private AudioClip diamondSound;
