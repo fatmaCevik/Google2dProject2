@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3809639192896020483}
   - component: {fileID: 2710128746255244680}
   - component: {fileID: 2338842532363626961}
+  - component: {fileID: 276198222443486691}
   m_Layer: 0
   m_Name: Maroyo
   m_TagString: Untagged
@@ -188,6 +189,19 @@ MonoBehaviour:
   jumpForce: 350
   rb2D: {fileID: 3809639192896020483}
   anim: {fileID: 3083323738197422534}
+--- !u!114 &276198222443486691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395927909888403448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3b40cbe20e6a747ae85ae2fee92233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diamondSound: {fileID: 8300000, guid: 647006e25189eaa4ca9409059ec9adf4, type: 3}
 --- !u!1 &8123826469758386339
 GameObject:
   m_ObjectHideFlags: 0
